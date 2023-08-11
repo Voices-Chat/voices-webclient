@@ -1,6 +1,6 @@
-import "./App.css"
-import ChannelList from "./components/ChannelList"
-import MemberList from "./components/MemberList"
+import "./App.css";
+import ChannelList from "./components/ChannelList";
+import MemberList from "./components/MemberList";
 
 const dummyMembers = [
   { id: "0", name: "CoolKind" },
@@ -25,7 +25,7 @@ function App() {
       <div className="input"></div>
       <div className="settings"></div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
