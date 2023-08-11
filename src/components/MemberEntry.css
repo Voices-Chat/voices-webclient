@@ -1,0 +1,31 @@
+@import '../App.css';
+
+.member-entry {
+    box-sizing: border-box;
+    height: 45px;
+    width: 100%;
+    border-radius: 3px;
+    padding-left: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 1em;
+    color: var(--fg-0);
+    font-weight: 600;
+}
+
+.member-entry:hover {
+    background-color: var(--bg-1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.profile-picture {
+    height: 75%;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+    margin-right: 10px
+}

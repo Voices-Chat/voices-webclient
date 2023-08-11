@@ -1,60 +1,76 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    --bg-0: #0d0d0d;
+    --bg-1: #1c1c1c;
+    --bg-2: #242424;
+    --bg-3: #2b2b2b;
+
+    --fg-0: rgb(153, 153, 153);
+
+}
+
 #root {
     display: grid;
-    grid-template-columns: 60px 230px auto 200px;
+    grid-template-columns: 60px 230px auto 230px;
     grid-template-rows: 60px auto 130px 50px;
     grid-template-areas:
         "sidebar groupinfo title title"
         "sidebar channels chat members"
         "sidebar settings chat members"
         "sidebar userinfo input members";
-    background-color: #242424;
     height: 100%;
 }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #0d0d0d;
+    background-color: var(--bg-0);
 }
 
 .groupinfo {
     grid-area: groupinfo;
-    border-bottom: 1px solid #0b120f;
+    border-bottom: 1px solid var(--bg-1);
+    background-color: var(--bg-1);
 }
 
 .title {
     grid-area: title;
-    border-bottom: 1px solid #0b120f;
+    border-bottom: 1px solid var(--bg-1);
+    background-color: var(--bg-1);
 }
 
 .channels {
     grid-area: channels;
-    background-color: #2b2b2b;
+    background-color: var(--bg-3);
 }
 
 .chat {
     grid-area: chat;
+    background-color: var(--bg-2);
 }
 
 .members {
     grid-area: members;
-    background-color: #2b2b2b;
+    background-color: var(--bg-3);
 }
 
 .userinfo {
     grid-area: userinfo;
-    background-color: #2b2b2b;
+    background-color: var(--bg-3);
 }
 
 .input {
     grid-area: input;
+    background-color: var(--bg-2);
 }
 
 .settings {
     grid-area: settings;
-    background-color: #1c1c1c;
+    background-color: var(--bg-1);
 }
 
-html, body {
+html,
+body {
     margin: 0;
     height: 100%;
 }
