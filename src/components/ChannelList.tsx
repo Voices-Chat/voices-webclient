@@ -1,5 +1,5 @@
-import "./ChannelList.css";
-import ChannelEntry from "./ChannelEntry";
+import "./ChannelList.css"
+import ChannelEntry from "./ChannelEntry"
 
 export default function ChannelList(props: { channels: { id: string, name: string }[] }) {
     return <div className="channel-list">
