@@ -7,12 +7,16 @@ let memberInfos = [
 ];
 
 export default function MemberList() {
+
+    memberInfos = memberInfos.concat(memberInfos, memberInfos, memberInfos, memberInfos);
+
     let i = 0;
     const memberComponents = memberInfos.map((memberInfo) => (
         <MemberEntry key={i++} memberInfo={memberInfo} />
     ));
 
     return <div className="member-list">
+        <span className='member-list-title'>Members</span>
         {memberComponents}
     </div>;
 }
