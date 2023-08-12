@@ -1,8 +1,7 @@
-import './MemberEntry.css'
+import "./MemberEntry.css";
 
-export default function MemberEntry(props: any) {
-    return <div className='member-entry'>
-        <img src={props.memberInfo.img} className='profile-picture' />
-        {props.memberInfo.name}
-    </div>
+export default function MemberEntry(props: { key: string, name: string }) {
+    return <div member-id={props.key} className="member-entry">
+        {props.name}
+    </div>;
 }

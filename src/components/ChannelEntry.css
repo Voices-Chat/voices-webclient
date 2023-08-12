@@ -1,6 +1,8 @@
-.member-entry {
+@import '../App.css';
+
+.channel-entry {
     box-sizing: border-box;
-    height: 45px;
+    height: 40px;
     width: 100%;
     border-radius: 5px;
     padding-left: 5px;
@@ -9,12 +11,12 @@
     flex-direction: row;
     align-items: center;
 
-    color: var(--fg-3);
+    font-size: 1em;
+    color: var(--fg-0);
     font-weight: 600;
-    font-size: 1rem;
 }
 
-.member-entry:hover {
+.channel-entry:hover {
     background-color: var(--bg-1);
     cursor: pointer;
     user-select: none;
