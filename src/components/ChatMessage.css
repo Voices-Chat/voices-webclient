@@ -1,0 +1,23 @@
+.chat-message {
+    min-height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.chat-message-header {
+    margin: 0px;
+}
+
+.chat-message-author {
+    margin-right: 10px;
+    color: var(--fg-3);
+}
+
+.chat-message-date {
+    font-size: 0.8em;
+    color: var(--fg-0);
+}
+
+.chat-message-content {
+    font-size: 0.95em;
+    margin: 0px;
+}

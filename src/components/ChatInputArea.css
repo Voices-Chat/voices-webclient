@@ -1,6 +1,6 @@
 .chat-input-area {
-    margin: 0px 10% 0px 10%;
-    padding: 0px 2% 0px 2%;
+    margin: 0px 5% 0px 5%;
+    padding: 0px 2% 3px 2%;
     border-bottom: 5px solid var(--bg-3);
     flex: 1;
 
