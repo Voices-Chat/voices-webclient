@@ -1,0 +1,12 @@
+.message-entry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+.msg-text {
+    padding-right: 15px;
+    padding-left: 10px;
+    word-break: break-word;
+}

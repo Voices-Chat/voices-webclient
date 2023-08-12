@@ -17,6 +17,7 @@ module.exports = {
     'quotes': ['error', 'double'],
     'semi': ['error', 'always'],
     'comma-dangle': ['error', 'never'],
-    'arrow-parens': ['error', 'always']
+    'arrow-parens': ['error', 'always'],
+    'eol-last': ['error', 'always']
   },
 }

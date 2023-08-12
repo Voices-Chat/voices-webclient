@@ -1,11 +1,11 @@
 import "./App.css";
 import ChannelList from "./components/ChannelList";
 import MemberList from "./components/MemberList";
-import ChatInputArea from "./components/ChatInputArea";
-import ChatArea from "./components/ChatArea";
+import MessageList from "./components/MessageList";
+import Input from "./components/Input";
 
-let dummyMembers = [
-  { id: "0", name: "CoolKind" },
+const dummyMembers = [
+  { id: "0", name: "CoolKindCoolKindCoolKindCoolKindCoolKindCoolKindCoolKind" },
   { id: "1", name: "RadiergummiHD" }
 ];
 
@@ -22,7 +22,7 @@ const dummyMessages = [
   { id: "1", authorname: "test", authorid: "1", creationdate: 0, content: "helloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohelloohellohellohellohellohellohellohello" },
   { id: "2", authorname: "test", authorid: "1", creationdate: 0, content: "hello" },
   { id: "3", authorname: "test", authorid: "1", creationdate: 0, content: "hello" },
-  { id: "4", authorname: "test", authorid: "1", creationdate: 0, content: "hello" },
+  { id: "4", authorname: "test", authorid: "1", creationdate: 0, content: "hello" }
 ];
 
 
@@ -33,10 +33,10 @@ function App() {
       <div className="groupinfo"></div>
       <div className="title"></div>
       <div className="channels"><ChannelList channels={dummyChannels} /></div>
-      <div className="chat"><ChatArea messages={dummyMessages} /></div>
+      <div className="chat"><MessageList messages={dummyMessages} /></div>
       <div className="members"><MemberList members={dummyMembers} /></div>
       <div className="userinfo"></div>
-      <div className="input"><ChatInputArea /></div>
+      <div className="input"><Input /></div>
       <div className="settings"></div>
     </>
   );
