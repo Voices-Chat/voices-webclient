@@ -1,0 +1,18 @@
+#chat-input-field {
+    flex: 1;
+
+    background-color: var(--bg-2);
+    border-style: none;
+
+    font-size: medium;
+    font-weight: 100;
+    color: var(--fg-1);
+}
+
+#chat-input-field:focus {
+    outline: none;
+}
+
+#chat-input-field::placeholder {
+    color: var(--fg-0);
+}
