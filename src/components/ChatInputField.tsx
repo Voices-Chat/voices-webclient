@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import './ChatInputField.css'
+import { useState } from "react";
+import "./ChatInputField.css";
 
 export default function ChatInputField() {
-    const [inputValue, setInputValue] = useState('');
+    const [inputValue, setInputValue] = useState("");
 
     const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === 'Enter') {
+        if (e.key === "Enter") {
             console.log(inputValue);
         }
     }

@@ -3,10 +3,14 @@ import ChannelList from "./components/ChannelList";
 import MemberList from "./components/MemberList";
 import ChatInputArea from "./components/ChatInputArea";
 
-const dummyMembers = [
+let dummyMembers = [
   { id: "0", name: "CoolKind" },
   { id: "1", name: "RadiergummiHD" }
 ];
+
+for (let i = 2; i < 50; i++) {
+  dummyMembers.push({ id: i + "", name: i + "" });
+}
 
 const dummyChannels = [
   { id: "2", name: "channel1" },
