@@ -1,4 +1,5 @@
 .message-list {
     display: flex;
     flex-direction: column;
+    scroll-snap-type: y mandatory;
 }
