@@ -5,10 +5,9 @@
     padding: 5px;
 
     overflow: hidden;
-    font-size: 0.94rem;
+    max-height: calc(100%);
 
-    /* Das gefällt mir nicht */
-    max-height: calc(100vh - 70px);
+    font-size: 0.94rem;
 
     /* For Firefox */
     scrollbar-width: thin;

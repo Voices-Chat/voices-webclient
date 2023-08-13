@@ -58,6 +58,7 @@
 .members {
     grid-area: members;
     background-color: var(--bg-3);
+    overflow: hidden;
 }
 
 .userinfo {
