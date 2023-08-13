@@ -1,7 +1,6 @@
 .message-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     scroll-snap-type: y mandatory;
     padding-right: 10px;
-    overflow: hidden;
 }

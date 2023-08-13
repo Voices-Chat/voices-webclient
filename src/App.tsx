@@ -9,10 +9,6 @@ const dummyMembers = [
   { id: "1", name: "RadiergummiHD" }
 ];
 
-for (let i = 2; i < 50; i++) {
-  dummyMembers.push({ id: i + "", name: i + "" });
-}
-
 const dummyChannels = [
   { id: "2", name: "channel1" },
   { id: "3", name: "channel2" }
@@ -27,7 +23,11 @@ const dummyMessages = [
 
 for (let i = 5; i < 50; i++) {
   dummyMessages.push({ id: i+"", authorname: "test", authorid: i+"1", creationdate: i*10000000, content: "hello" });
+  dummyMembers.push({ id: i +"", name: i + "" });
+  dummyChannels.push({ id: i+"", name: "channel"+i });
 }
+
+dummyMessages.reverse();
 
 
 function App() {
