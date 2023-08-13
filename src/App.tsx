@@ -2,7 +2,7 @@ import "./App.css";
 import ChannelList from "./components/ChannelList";
 import MemberList from "./components/MemberList";
 import MessageList from "./components/MessageList";
-import Input from "./components/Input";
+import ChatInput from "./components/ChatInput";
 
 const dummyMembers = [
   { id: "0", name: "CoolKindCoolKindCoolKindCoolKindCoolKindCoolKindCoolKind" },
@@ -25,6 +25,10 @@ const dummyMessages = [
   { id: "4", authorname: "test", authorid: "1", creationdate: 0, content: "hello" }
 ];
 
+for (let i = 5; i < 50; i++) {
+  dummyMessages.push({ id: i+"", authorname: "test", authorid: i+"1", creationdate: i*10000000, content: "hello" });
+}
+
 
 function App() {
   return (
@@ -36,7 +40,7 @@ function App() {
       <div className="chat"><MessageList messages={dummyMessages} /></div>
       <div className="members"><MemberList members={dummyMembers} /></div>
       <div className="userinfo"></div>
-      <div className="input"><Input /></div>
+      <div className="input"><ChatInput /></div>
       <div className="settings"></div>
     </>
   );
