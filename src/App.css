@@ -52,6 +52,7 @@ html, body {
 .channels {
     grid-area: channels;
     background-color: var(--bg-3);
+    padding: 0px 0px 10px 0px;
     overflow: hidden;
 }
 
