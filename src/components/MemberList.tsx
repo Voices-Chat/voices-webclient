@@ -1,6 +1,6 @@
+import MemberEntry from "./MemberEntry";
 import "./MemberList.css";
 import "./scrollable.css";
-import MemberEntry from "./MemberEntry";
 
 export default function MemberList(props: { members: { id: string, name: string }[] }) {
     return <div className="member-list scrollable">
