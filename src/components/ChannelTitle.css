@@ -3,14 +3,21 @@
     align-items: center;
     gap: 10px;
     height: calc(100%);
+    white-space: nowrap;
 }
 
 .channel-name {
     font-size: large;
     color: var(--fg-3);
+
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .channel-description {
     font-size: medium;
     color: var(--fg-1);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

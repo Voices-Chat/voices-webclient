@@ -37,7 +37,7 @@ function App() {
     <>
       <div className="sidebar"></div>
       <div className="groupinfo"><GroupInfo name={"GroupName10110101117272D7"}/></div>
-      <div className="channeltitle"><ChannelTitle name={"Channel 727"} description={"When you see it."} /> </div>
+      <div className="channeltitle"><ChannelTitle name={"Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 Channel 727 "} description={"When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it.When you see it."} /> </div>
       <div className="channels"><ChannelList channels={dummyChannels} /></div>
       <div className="chat"><MessageList messages={dummyMessages} /></div>
       <div className="members"><MemberList members={dummyMembers} /></div>

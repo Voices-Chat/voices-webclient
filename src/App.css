@@ -52,7 +52,8 @@ html, body {
     grid-area: channeltitle;
     border-bottom: 1px solid var(--bg-1);
     background-color: var(--bg-1);
-    padding: 0px 30px 0px 30px
+    padding: 0px 30px 0px 30px;
+    overflow: hidden;
 }
 
 .channels {
