@@ -1,0 +1,16 @@
+.channel-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: calc(100%);
+}
+
+.channel-name {
+    font-size: large;
+    color: var(--fg-3);
+}
+
+.channel-description {
+    font-size: medium;
+    color: var(--fg-1);
+}

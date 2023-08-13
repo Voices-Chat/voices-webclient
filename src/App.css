@@ -25,7 +25,7 @@ html, body {
     grid-template-columns: 60px 230px auto 230px;
     grid-template-rows: 60px auto 130px 50px;
     grid-template-areas:
-        "sidebar groupinfo title title"
+        "sidebar groupinfo channeltitle channeltitle"
         "sidebar channels chat members"
         "sidebar settings chat members"
         "sidebar userinfo input members";
@@ -48,10 +48,11 @@ html, body {
     overflow: hidden;
 }
 
-.title {
-    grid-area: title;
+.channeltitle {
+    grid-area: channeltitle;
     border-bottom: 1px solid var(--bg-1);
     background-color: var(--bg-1);
+    padding: 0px 30px 0px 30px
 }
 
 .channels {
