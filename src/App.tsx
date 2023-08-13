@@ -3,6 +3,7 @@ import ChannelList from "./components/ChannelList";
 import MemberList from "./components/MemberList";
 import MessageList from "./components/MessageList";
 import ChatInput from "./components/ChatInput";
+import GroupInfo from "./components/GroupInfo";
 
 const dummyMembers = [
   { id: "0", name: "CoolKindCoolKindCoolKindCoolKindCoolKindCoolKindCoolKind" },
@@ -34,7 +35,7 @@ function App() {
   return (
     <>
       <div className="sidebar"></div>
-      <div className="groupinfo"></div>
+      <div className="groupinfo"><GroupInfo name={"GroupName10110101117272D7"}/></div>
       <div className="title"></div>
       <div className="channels"><ChannelList channels={dummyChannels} /></div>
       <div className="chat"><MessageList messages={dummyMessages} /></div>

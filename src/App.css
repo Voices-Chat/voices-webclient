@@ -41,6 +41,11 @@ html, body {
     grid-area: groupinfo;
     border-bottom: 1px solid var(--bg-1);
     background-color: var(--bg-1);
+
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 10px;
+    overflow: hidden;
 }
 
 .title {

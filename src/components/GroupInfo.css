@@ -1,0 +1,6 @@
+.group-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: larger;
+    color: var(--fg-3);
+}
